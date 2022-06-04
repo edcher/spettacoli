@@ -13,6 +13,7 @@ export class postiTeatro {
 })
 export class TeatroComponent implements OnInit {
   posti: Array<postiTeatro>;
+  key: string;
 
   constructor(private service: TeatroService) { }
 
